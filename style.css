@@ -1,0 +1,67 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root{
+    --Very-Pale-Cyan: hsl(193, 100%, 96%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Grayish-Blue: hsl(208, 11%, 55%);
+    --Pink: hsl(322, 100%, 66%);
+    --btn-hover:hsl(322, 100%, 80%);
+}
+.card-text-right{
+    margin-inline-end: 15%;
+}
+.card-title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+.card-text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--Grayish-Blue);
+}
+.btn{
+    background-color: var(--Pink);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+.text-footer{
+    color:var(--Grayish-Blue);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+header{
+    font-family: 'Poppins', sans-serif;
+    background-image: url("bg-hero-desktop.svg");
+    background-color: rgb(194, 227, 238);
+}
+footer{
+    background-color: hsl(192, 100%, 9%);
+}
+i{
+    color: white;
+}
+#footer-img{
+    filter: brightness(0) invert(1);
+    margin-top: 10%;
+    margin-bottom: 5%;
+    max-width: 200px;
+}
+#main-footer{
+    margin-bottom: -10%;
+    width: 700px;
+    height: 200px;
+}
+.btn:hover{
+    background-color: var(--btn-hover);
+    color: white;
+}
+a{
+    text-decoration:none;
+    margin-bottom: 5%;  
+}
